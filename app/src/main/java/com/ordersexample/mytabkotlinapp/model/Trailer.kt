@@ -1,5 +1,5 @@
 package com.ordersexample.mytabkotlinapp.model
-
+@Serializable
 data class Trailer(
     val id: String,
     val iso_3166_1: String,
