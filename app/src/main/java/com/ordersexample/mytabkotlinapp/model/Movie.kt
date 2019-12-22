@@ -1,5 +1,5 @@
 package com.ordersexample.mytabkotlinapp.model
-
+@Serializable
 data class Movie(
     val adult: Boolean,
     val backdrop_path: String,
